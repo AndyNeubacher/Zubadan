@@ -1,0 +1,17 @@
+version: ebusd 2.4.79708d2
+signal: acquired
+symbol rate: 20
+reconnects: 0
+masters: 5
+messages: 22
+conditional: 0
+poll: 1
+update: 10
+address 00: master #1
+address 01: master #6
+address 03: master #11
+address 10: master #2
+address 15: slave #2, scanned
+address 31: master #8, ebusd
+address 36: slave #8, ebusd
+address 90: slave, scanned

@@ -1,0 +1,5 @@
+enx7cdd90bcbbb0
+
+
+wpa_supplicant -B -ienx7cdd90bcbbb0 -c/etc/wpa_supplicant/wpa_supplicant.conf -Dwext
+dhclient enx7cdd90bcbbb0
